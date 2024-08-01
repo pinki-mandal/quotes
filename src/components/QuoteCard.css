@@ -1,0 +1,11 @@
+/* src/components/QuoteCard.css */
+.quote-appear {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .quote-appear-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
